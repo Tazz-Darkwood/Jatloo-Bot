@@ -3,7 +3,7 @@ var bot = new Discord.Client();
 
 bot.on("message", msg => {
   // Set the prefix
-  let prefix = "!";
+  let prefix = "-";
   // Exit and stop if it's not there
   if(!msg.content.startsWith(prefix)) return;
   // Exit if any bot
